@@ -99,9 +99,11 @@ note : Este comando so pode ser usado se você for admin\n
 comando : *${prefix}simih*
 desc : ativa o modo simih
 uso : *${prefix}simih 1* pra ativar o modo, e *${prefix}simih 0* pra desativar o modo simih
-note : Este comando so pode ser usado se você for admin do grupo\n`
+note : Este comando so pode ser usado se você for admin do grupo\n
 
 Contate meu dono caso tenha alguma dúvida: wa.me/558494740630
+
+`
 }
 
 exports.help = help
