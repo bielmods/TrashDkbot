@@ -666,7 +666,7 @@ async function starts() {
 					}
 					break
 case 'dono':
-if (args.length < 1) return reply('ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ ✞☬ঔ
+if (args.length < 1) return reply('TrashфDkofc/n
 Número do meu dono😎🤙:WA.me/558494740630 Etc\n 😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw etc')
 break
 				default:
