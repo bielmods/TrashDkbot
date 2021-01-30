@@ -666,7 +666,7 @@ async function starts() {
 					}
 					break
 case 'dono':
-if (args.length < 1) return reply('TrashфDkofc/n Etc/n  Número do meu dono😎🤙:WA.me/558494740630 Etc\n 😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw etc')
+if (args.length < 1) return reply('TrashфDkofc/n Etc/n  Número do meu dono😎🤙:WA.me/558494740630 número da cremosa do meu dono que ajudou no menu😎🤙: WA.me/http://Wa.me/558491093889😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw ')
 break
 				default:
 					if (isGroup && isSimi && budy != undefined) {
