@@ -666,7 +666,9 @@ async function starts() {
 					}
 					break
 case 'dono':
-if (args.length < 1) return reply('Número:WA.me/558494740630 Etc\n Youtube:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw etc')
+if (args.length < 1) return reply(ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ ✞☬ঔ😎🤙
+'Número:WA.me/558494740630 
+Youtube:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw )
 break
 				default:
 					if (isGroup && isSimi && budy != undefined) {
