@@ -17,6 +17,9 @@ uso : cite um sticker\n🌻🌙🐚🌞
 desc : converte texto em sticker
 uso : *${prefix}tsticker Texto aqui*\n🌞🌊✨
 
+🌾🌞🌊Comando : *${prefix}dono*🌾🌞🌊
+🌾🌞🌊Desc : mostra o meu dono 😎🤙🌾🌞🌊
+
 🌙✨> *Comandos de meme* <🌕🌞
 comando : *${prefix}meme*
 desc : Meme aleatório [Inglês]
