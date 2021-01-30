@@ -590,12 +590,12 @@ async function starts() {
 						fs.unlinkSync(media)
 						if (err) return reply('â„1¤7 Falha ao converter sticker em imagem â„1¤7')
 						buffer = fs.readFileSync(ran)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: '>//<'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Tai poha😎🤙'})
 						fs.unlinkSync(ran)
 					})
 					break
 				case 'simi':
-					if (args.length < 1) return reply('Onde estÃ¡ o texto poha, hum?')
+					if (args.length < 1) return reply('Onde esta o texto poha, hum?')
 					teks = body.slice(5)
 					anu = await simih(teks) //fetchJson(`https://mhankbarbars.herokuapp.com/api/samisami?text=${teks}`, {method: 'get'})
 					//if (anu.error) return reply('Simi nao sabe')
@@ -609,7 +609,7 @@ async function starts() {
 						if (isSimi) return reply('O modo simi esta ativo')
 						samih.push(from)
 						fs.writeFileSync('./src/simi.json', JSON.stringify(samih))
-						reply('Modo simih ativado com sucesso âœ”ï¸')
+						reply('Modo simih ativado com sucesso')
 					} else if (Number(args[0]) === 0) {
 						samih.splice(from, 1)
 						fs.writeFileSync('./src/simi.json', JSON.stringify(samih))
@@ -646,7 +646,7 @@ async function starts() {
 						pp = await client.getProfilePicture(id)
 						buffer = await getBuffer(pp)
 						client.updateProfilePicture(botNumber, buffer)
-						mentions(`Foto profile Berhasil di perbarui menggunakan foto profile @${id.split('@')[0]}`, [jid], true)
+						mentions(`Foto do perfil atualizada com sucesso usando a foto do perfil @${id.split('@')[0]}`, [jid], true)
 					} catch (e) {
 						reply('Gagal om')
 					}
@@ -662,12 +662,12 @@ async function starts() {
 							reply(err)
 						})
 					} else {
-						reply('SÃ³ uma foto mano')
+						reply('Só uma foto mano')
 					}
 					break
-case 'dono':
-if (args.length < 1) return reply('TrashфDkofc/n Número do meu dono😎🤙:WA.me/558494740630 número da cremosa do meu dono que ajudou no menu😎🤙: WA.me/http://Wa.me/558491093889😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw ')
-break
+                                case 'dono':
+                                        if (args.length < 1) return reply('TrashфDkofc Número do meu dono😎🤙:WA.me/558494740630 número da cremosa do meu dono que ajudou no menu😎🤙: WA.me/http://Wa.me/558491093889😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw ')
+                                        break
 				default:
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
