@@ -1,109 +1,113 @@
 const help = (prefix) => {
-	return `ঔৣ͜͡TrashфDk'Ofcꪶ(BOT)comandos:
+	return `ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ✞☬ঔ(BOT)comandos:
 
-Comando : *${prefix}sticker* ou *${prefix}stiker*
+🌊🐚🌕Comando : *${prefix}sticker* ou *${prefix}stiker*🌻✨🌞
 desc : converter imagem / gif / vídeo em adesivo
-uso : responder imagem / gif / vídeo ou enviar imagem / gif / vídeo com legenda\n
+uso : responder imagem / gif / vídeo ou enviar imagem / gif / vídeo com legenda\n🌊🌞✨
 
-comando : *${prefix}sticker nobg* ou *${prefix}stiker nobg*
+🌞✨🌊comando : *${prefix}sticker nobg* ou *${prefix}stiker nobg*🌊🌕🌻
 desc : converter imagem em adesivo removendo o fundo
-uso : responder imagem ou enviar imagem com legenda\n
+uso : responder imagem ou enviar imagem com legenda\n🌊🐚🌙✨
 
-comando : *${prefix}toimg*
+🌞✨🌊comando : *${prefix}toimg*
 desc : converter sticker para imagem
-uso : cite um sticker\n
+uso : cite um sticker\n🌻🌙🐚🌞
 
-comando : *${prefix}tsticker* ou *${prefix}tstiker*
+🌾🌞🌊comando : *${prefix}tsticker* ou *${prefix}tstiker*
 desc : converte texto em sticker
-uso : *${prefix}tsticker Texto aqui*\n
+uso : *${prefix}tsticker Texto aqui*\n🌞🌊✨
 
-> *Comandos de meme* <
+🌙✨> *Comandos de meme* <🌕🌞
 comando : *${prefix}meme*
 desc : Meme aleatório [Inglês]
-uso : apenas envie o comando\n
+uso : apenas envie o comando\n✨🌞
 
-comando : *${prefix}memeindo*
+🌊✨comando : *${prefix}memeindo*
 desc : memes aleatórios [indonesio]
-uso : apenas envie o comando\n
+uso : apenas envie o comando\n🌊🐚
 
-> *Outros comandos* <
+🌞🌊✨> *Outros comandos* <
 comando : *${prefix}gtts*
 desc : converte texto em áudio
-uso : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts pt iae mano*\n
+uso : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts pt iae mano*\n🐚🌊✨
 
-comando : *${prefix}loli*
+🌻🌾comando : *${prefix}loli*
 desc : imagens de lolis aleatórias
-uso : apenas envie o comando\n
+uso : apenas envie o comando\n🪐🌕✨🌞
 
-comando : *${prefix}nsfwloli*
+🌻🌾✨comando : *${prefix}nsfwloli*
 desc : fotos de loli nfsw aleatórias
-uso : apenas envie o comando\n
+uso : apenas envie o comando\n🌻🌾✨
 
-comando : *${prefix}url2img*
+🌞🌕🌻🌾✨comando : *${prefix}url2img*
 desc : pega prints de sites
-uso : *${prefix}url2img [tipe] [url]*\n
+uso : *${prefix}url2img [tipe] [url]*\n✨🌾
 
-comando : *${prefix}simi*
+🌊🐚🪐comando : *${prefix}simi*
 desc : suas mensagens serao respondidas pelo simi
-uso : *${prefix}simi (sua mensagem)*\n
+uso : *${prefix}simi (sua mensagem)*\n🌞🌊
 
-comando : *${prefix}ocr*
+✨🌾🌞🌊comando : *${prefix}ocr*
 desc : transforma o texto em pintura
-uso : mande imagem,ou marque imagem com legenda\n
+uso : mande imagem,ou marque imagem com legenda\n🌾✨🌊🌞
 
-comando : *${prefix}wait*
+🌊🌞🌾comando : *${prefix}wait*
 desc : procurar o anime com uma imagem [ que anime é este ]
-uso : responder imagem ou enviar imagem com legenda\n
+uso : responder imagem ou enviar imagem com legenda\n🌻✨🌞🌊
 
-comando : *${prefix}setprefix*
+🌻🌾🌊comando : *${prefix}setprefix*
 desc : recoloca o prefix
 uso : *${prefix}setprefix [text|optional]*\n exemplo : *${prefix}setprefix ?*
-note : Esse comando só pode ser usado pelo dono do bot 😎🤙\n
+note : Esse comando só pode ser usado pelo dono do bot 😎🤙\n🌊🌾✨🌞
 
-> *Comandos de grupo* <
+🌞🌊✨> *Comandos de grupo* <
 comando : *${prefix}add*
 desc : Adiciona um membro ao grupo
 uso : *${prefix}add 55849xxxxx*\n
-note : só pode ser usado quando o bot se torna admin, e quem envia também é admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia também é admin!\n✨🌞🌊
 
-comando : *${prefix}kick*
+🌊🌞🌾comando : *${prefix}kick*
 desc : expulsa membros do grupo
 uso : *${prefix}kick @marcarmembro*\n
-note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n🌾🌻🌞🌊
 
-comando : *${prefix}promote*
+✨🌞🌊comando : *${prefix}promote*
 desc : faz um membro comum se tornar adm😎🤙
 uso : *${prefix}promote @marcarmembro*\n
-note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n✨🌊🌾🌻
 
-comando : *${prefix}demote*
+🪐🐚🌊comando : *${prefix}demote*
 desc : faz um adm virar membro comum 😔🤙
 uso : *${prefix}demote @marcarmembro*\n
-note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n✨🌞🌊
 
-comando : *${prefix}linkgroup*
+🌊🌞✨comando : *${prefix}linkgroup*
 desc : envia o link do grupo
 uso : apenas envie o comando
-note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n🌊🌞🌻✨
 
-comando : *${prefix}leave*
+🐚🌊✨🌞comando : *${prefix}leave*
 desc : faz o bot sair do grupo
 uso : apenas envie o comando
-note : so pode ser usado por admins ou o dono do bot\n
+note : so pode ser usado por admins ou o dono do bot\n🌊✨🌞🌕
 
-comando : *${prefix}tagall*
+🌙🪐🌾✨comando : *${prefix}tagall*
 desc : marca todos os membros e admins
 uso : apenas envie o comando
-note : Este comando so pode ser usado se você for admin\n
+note : Este comando so pode ser usado se você for admin\n✨🌊🌞🪐
 
-comando : *${prefix}simih*
+🌊✨🪐comando : *${prefix}simih*
 desc : ativa o modo simih
 uso : *${prefix}simih 1* pra ativar o modo, e *${prefix}simih 0* pra desativar o modo simih
-note : Este comando so pode ser usado se você for admin do grupo\n
+note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐🌊✨
 
 Contate meu dono caso tenha alguma dúvida: wa.me/558494740630
 
-`
+'ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ:🌞🌊✨🌙Wa.me/558491093889🌞🌊✨🌙
+~𝐶𝑜𝑛𝑡𝑎𝑡𝑜 𝑑𝑎 𝑐𝑟𝑒𝑚𝑜𝑠𝑎, 𝑒𝑙𝑎 𝑎𝑗𝑢𝑑𝑜𝑢 𝑛𝑜 𝑚𝑒𝑛𝑢.~
+
+'
+
 }
 
 exports.help = help
