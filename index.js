@@ -77,7 +77,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Ola seja bem vindo @${num.split('@')[0]}👋`
+				teks = `Ola seja bem vindo @${num.split('@')[0]}ðŸ‘‹`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -115,18 +115,18 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌄1�7 Em andamento ⌄1�7',
-				success: '✔️ Pronto ✔️',
+				wait: 'âŒ„1¤7 Em andamento âŒ„1¤7',
+				success: 'âœ”ï¸ Pronto âœ”ï¸',
 				error: {
-					stick: '❄1�7 Falha, ocorreu um erro ao converter a imagem em um sticker😔 ❄1�7',
-					Iv: '❄1�7 Link não é válido ❄1�7'
+					stick: 'â„1¤7 Falha, ocorreu um erro ao converter a imagem em um stickerðŸ˜” â„1¤7',
+					Iv: 'â„1¤7 Link nÃ£o Ã© vÃ¡lido â„1¤7'
 				},
 				only: {
-					group: '❄1�7 Este comando só pode ser usado em grupos mano! ❄1�7',
-					ownerG: '❄1�7 Este comando só pode ser usado pelos adms do grupo ❄1�7',
-					ownerB: '❄1�7 Este comando só pode ser usado pelo dono do bot seu burro >:( ❄1�7',
-					admin: '❄1�7 Este comando só pode ser usado por adms do grupo😔🤙 ❄1�7',
-					Badmin: '❄1�7 Este comando só pode ser usado quando você é adm e o bot também 😔🤙 ❄1�7'
+					group: 'â„1¤7 Este comando sÃ³ pode ser usado em grupos mano! â„1¤7',
+					ownerG: 'â„1¤7 Este comando sÃ³ pode ser usado pelos adms do grupo â„1¤7',
+					ownerB: 'â„1¤7 Este comando sÃ³ pode ser usado pelo dono do bot seu burro >:( â„1¤7',
+					admin: 'â„1¤7 Este comando sÃ³ pode ser usado por adms do grupoðŸ˜”ðŸ¤™ â„1¤7',
+					Badmin: 'â„1¤7 Este comando sÃ³ pode ser usado quando vocÃª Ã© adm e o bot tambÃ©m ðŸ˜”ðŸ¤™ â„1¤7'
 				}
 			}
 
@@ -244,7 +244,7 @@ async function starts() {
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`❄1�7 falha ao converter ${tipe} em sticker`)
+								reply(`â„1¤7 falha ao converter ${tipe} em sticker`)
 							})
 							.on('end', function () {
 								console.log('Finish')
@@ -330,15 +330,15 @@ async function starts() {
 					break
 				/*case 'loli':
 					loli.getSFWLoli(async (err, res) => {
-						if (err) return reply('❄1�7 *ERROR* ❄1�7')
+						if (err) return reply('â„1¤7 *ERROR* â„1¤7')
 						buffer = await getBuffer(res.url)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Citai Lolimu'})
 					})
 					break
 				case 'nsfwloli':
-					if (!isNsfw) return reply('❄1�7 *FALSE* ❄1�7')
+					if (!isNsfw) return reply('â„1¤7 *FALSE* â„1¤7')
 					loli.getNSFWLoli(async (err, res) => {
-						if (err) return reply('❄1�7 *ERROR* ❄1�7')
+						if (err) return reply('â„1¤7 *ERROR* â„1¤7')
 						buffer = await getBuffer(res.url)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Hum Fbi'})
 					})
@@ -360,7 +360,7 @@ async function starts() {
 					client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
 					break
 				case 'ytsearch':
-					if (args.length < 1) return reply('O que você esta procurando?')
+					if (args.length < 1) return reply('O que vocÃª esta procurando?')
 					anu = await fetchJson(`https://mhankbarbar.tech/api/ytsearch?q=${body.slice(10)}&apiKey=${apiKey}`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = '=================\n'
@@ -380,7 +380,7 @@ async function starts() {
 					break
 				case 'tiktokstalk':
 					try {
-						if (args.length < 1) return client.sendMessage(from, 'Onde esta o nome de usuário?', text, {quoted: mek})
+						if (args.length < 1) return client.sendMessage(from, 'Onde esta o nome de usuÃ¡rio?', text, {quoted: mek})
 						let { user, stats } = await tiktod.getUserProfileInfo(args[0])
 						reply(mess.wait)
 						teks = `*ID* : ${user.id}\n*Username* : ${user.uniqueId}\n*Nickname* : ${user.nickname}\n*Followers* : ${stats.followerCount}\n*Followings* : ${stats.followingCount}\n*Posts* : ${stats.videoCount}\n*Luv* : ${stats.heart}\n`
@@ -403,7 +403,7 @@ async function starts() {
 					break
 				case 'url2img':
 					tipelist = ['desktop','tablet','mobile']
-					if (args.length < 1) return reply('Qual é o tipo?')
+					if (args.length < 1) return reply('Qual Ã© o tipo?')
 					if (!tipelist.includes(args[0])) return reply('Tipo desktop|tablet|mobile')
 					if (args.length < 2) return reply('Cade o link??')
 					if (!isUrl(args[1])) return reply(mess.error.Iv)
@@ -445,7 +445,7 @@ async function starts() {
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
+						teks += `â• âž¥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					reply(teks)
@@ -455,7 +455,7 @@ async function starts() {
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `╠➥ https://wa.me/${mem.jid.split('@')[0]}\n`
+						teks += `â• âž¥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					client.sendMessage(from, teks, text, {detectLinks: false, quoted: mek})
@@ -470,7 +470,7 @@ async function starts() {
 					reply('Sukses delete all chat :)')
 					break
 				case 'bc':
-					if (!isOwner) return reply('Quem é tu mlk?')
+					if (!isOwner) return reply('Quem Ã© tu mlk?')
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
@@ -501,7 +501,7 @@ async function starts() {
 						mentions(from, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`Agora é um adm😎 @${mentioned[0].split('@')[0]} Sebagai Admin Group!`, mentioned, true)
+						mentions(`Agora Ã© um admðŸ˜Ž @${mentioned[0].split('@')[0]} Sebagai Admin Group!`, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break
@@ -519,7 +519,7 @@ async function starts() {
 						mentions(teks, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`Esse carinha aqui nao é mais adm kkkkkk @${mentioned[0].split('@')[0]} Menjadi Member Group!`, mentioned, true)
+						mentions(`Esse carinha aqui nao Ã© mais adm kkkkkk @${mentioned[0].split('@')[0]} Menjadi Member Group!`, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					}
 					break
@@ -541,7 +541,7 @@ async function starts() {
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Marque quem você quer expulsar!')
+					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Marque quem vocÃª quer expulsar!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
 						teks = 'expulso com sucesso :\n'
@@ -581,21 +581,21 @@ async function starts() {
                                         }
                                         break
 				case 'toimg':
-					if (!isQuotedSticker) return reply('❄1�7 apenas sticker em imagem ❄1�7')
+					if (!isQuotedSticker) return reply('â„1¤7 apenas sticker em imagem â„1¤7')
 					reply(mess.wait)
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await client.downloadAndSaveMediaMessage(encmedia)
 					ran = getRandom('.png')
 					exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 						fs.unlinkSync(media)
-						if (err) return reply('❄1�7 Falha ao converter sticker em imagem ❄1�7')
+						if (err) return reply('â„1¤7 Falha ao converter sticker em imagem â„1¤7')
 						buffer = fs.readFileSync(ran)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: '>//<'})
 						fs.unlinkSync(ran)
 					})
 					break
 				case 'simi':
-					if (args.length < 1) return reply('Onde está o texto poha, hum?')
+					if (args.length < 1) return reply('Onde estÃ¡ o texto poha, hum?')
 					teks = body.slice(5)
 					anu = await simih(teks) //fetchJson(`https://mhankbarbars.herokuapp.com/api/samisami?text=${teks}`, {method: 'get'})
 					//if (anu.error) return reply('Simi nao sabe')
@@ -609,11 +609,11 @@ async function starts() {
 						if (isSimi) return reply('O modo simi esta ativo')
 						samih.push(from)
 						fs.writeFileSync('./src/simi.json', JSON.stringify(samih))
-						reply('Modo simih ativado com sucesso ✔️')
+						reply('Modo simih ativado com sucesso âœ”ï¸')
 					} else if (Number(args[0]) === 0) {
 						samih.splice(from, 1)
 						fs.writeFileSync('./src/simi.json', JSON.stringify(samih))
-						reply('Modo simih ativado com sucesso ✔️')
+						reply('Modo simih ativado com sucesso âœ”ï¸')
 					} else {
 						reply('1 para ativar, 0 para desativar')
 					}
@@ -626,11 +626,11 @@ async function starts() {
 						if (isWelkom) return reply('ja ta ativo poha')
 						welkom.push(from)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
-						reply('Modo boas vindas ativado com sucesso neste grupo ✔️')
+						reply('Modo boas vindas ativado com sucesso neste grupo âœ”ï¸')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
-						reply('Modo boas vindas desativado com sucesso ✔️')
+						reply('Modo boas vindas desativado com sucesso âœ”ï¸')
 					} else {
 						reply('1 para ativar, 0 para desativar')
 					}
@@ -638,7 +638,7 @@ async function starts() {
 				case 'clone':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('A tag alvo que você deseja clonar')
+					if (args.length < 1) return reply('A tag alvo que vocÃª deseja clonar')
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag cvk')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
 					let { jid, id, notify } = groupMembers.find(x => x.jid === mentioned)
@@ -662,9 +662,12 @@ async function starts() {
 							reply(err)
 						})
 					} else {
-						reply('Só uma foto mano')
+						reply('SÃ³ uma foto mano')
 					}
 					break
+case 'dono':
+if (args.length < 1) return reply('Número:WA.me/558494740630 Etc\n Youtube:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw etc')
+break
 				default:
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
