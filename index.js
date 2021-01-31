@@ -666,8 +666,11 @@ async function starts() {
 					}
 					break
                                 case 'dono':
-                                        if (args.length < 1) return reply('TrashфDkofc Número do meu dono😎🤙:WA.me/558494740630 número da cremosa do meu dono que ajudou no menu😎🤙: WA.me/http://Wa.me/558491093889😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw ')
-                                        break
+					memein = await kagApi.memeindo()
+					buffer = await getBuffer(`https://i.imgur.com/d1M6lOz.jpg`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* ঔৣ͜͡TrashфDk'Ofcꪶ\n*YOUTUBE:* https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n*WPP:* wa.me/+558494740630 *naqueles pike espero que estejam gostando do bot😎🤙*'})
+					     break
+
 				default:
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
