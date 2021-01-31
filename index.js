@@ -668,7 +668,7 @@ async function starts() {
                                 case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://i.imgur.com/d1M6lOz.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* ঔৣ͜͡TrashфDk'Ofcꪶ\n*YOUTUBE:* https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n*WPP:* wa.me/+558494740630 *naqueles pike espero que estejam gostando do bot😎🤙*'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* TrashDkofc\n*YOUTUBE:* https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n*WPP:* wa.me/+558494740630 *naqueles pike espero que estejam gostando do bot😎🤙*'})
 					     break
 				default:
 					if (isGroup && isSimi && budy != undefined) {
