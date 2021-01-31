@@ -666,10 +666,9 @@ async function starts() {
 					}
 					break
                                 case 'dono':
-					memein = await kagApi.dono()
-					buffer = await getBuffer(`http://imgur.com/gallery/KnMnEvm`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption:'*CRIADOR:* TrashDkofc\n*YOUTUBE:* https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n*WPP:* wa.me/+558494740630 *naqueles pike espero que estejam gostando do bot😎🤙*'})
-					     break
+					memein = await kagApi.memeindo()
+					buffer = await getBuffer(`https://imgur.com/gallery/KnMnEvm`)
+                                        client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* TrashDkofc\n*YOUTUBE:* https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw:* wa.me/+558494740630\n*INSTA:* to sem 😔🤙 kk'})
 				default:
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
