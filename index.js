@@ -428,7 +428,7 @@ async function starts() {
 						fs.unlinkSync(rano)
 					})
 					break
-				case 'tagall':
+				case 'marcar':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					members_id = []
@@ -440,7 +440,7 @@ async function starts() {
 					}
 					mentions(teks, members_id, true)
 					break
-                                case 'tagall2':
+                                case 'marcar2':
 					members_id = []
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
@@ -450,7 +450,7 @@ async function starts() {
 					}
 					reply(teks)
 					break
-                                case 'tagall3':
+                                case 'marcar3':
 					members_id = []
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
@@ -469,7 +469,7 @@ async function starts() {
 					}
 					reply('Sukses delete all chat :)')
 					break
-				case 'bc':
+				case 'tm':
 					if (!isOwner) return reply('Quem é tu mlk?')
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
