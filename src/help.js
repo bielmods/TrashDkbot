@@ -94,7 +94,7 @@ desc : faz o bot sair do grupo
 uso : apenas envie o comando
 note : so pode ser usado por admins ou o dono do bot\n🌊✨🌞🌕
 
-🌙🪐🌾✨comando : *${prefix}tagall*
+🌙🪐🌾✨comando : *${prefix}marcar*
 desc : marca todos os membros e admins
 uso : apenas envie o comando
 note : Este comando so pode ser usado se você for admin\n✨🌊🌞🪐
