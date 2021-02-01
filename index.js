@@ -313,7 +313,7 @@ async function starts() {
 					})
 					break
 				case 'meme':
-					meme = await fetchJson('https//kagchi-api.glitch.me/meme/memes', { method: 'get' })
+					meme = await fetchJson('http://imgur.com/gallery/3xPWgiY', { method: 'get' })
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
