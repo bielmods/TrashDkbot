@@ -669,7 +669,7 @@ async function starts() {
 if (args.length < 1) return reply('TrashфDkofcꪶ Número do meu dono😎🤙:WA.me/558494740630 😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw Número da cremosa do meu dono que ajudou a fazer o menu 😎🤙ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ: wa.me/558491093889')
                                         break
                                 case 'porno':
-					memein = await kagApi.memeindo()
+					memein = await kagApi.porno()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3BgnL2qAHDTlfCPMAvdjuLGvOx402dSdhw&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Adm proibiu porno no gp🙄'})
 					break
