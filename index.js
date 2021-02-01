@@ -673,7 +673,6 @@ if (args.length < 1) return reply('TrashфDkofcꪶ Número do meu dono😎🤙:W
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3BgnL2qAHDTlfCPMAvdjuLGvOx402dSdhw&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Adm proibiu porno no gp🙄'})
 					break
-				
                                 	default:
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
