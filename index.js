@@ -674,7 +674,7 @@ break
 case 'bomdia':
 if (args.length < 1) return reply('Bom dia meu bom 😎🤙')
 break
-case 'boa tarde':
+case 'boatarde':
 if (args.length < 1) return reply('Boa tarde só prós do verdade😎🤙')
 break
 case 'boanoite':
