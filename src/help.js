@@ -107,6 +107,14 @@ desc : ativa o modo simih
 uso : *${prefix}simih 1* pra ativar o modo, e *${prefix}simih 0* pra desativar o modo simih
 note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐🌊✨
 
+          >Outros comandos<😎🤙🌾🌞🌊
+
+🌾🌞🌊Comando : *${prefix}bomdia
+
+🌾🌞🌊Comando : *${prefix}boatarde
+
+🌾🌞🌊Comando : *${prefix}boa noite
+
 Contate meu dono caso tenha alguma dúvida: wa.me/558494740630
 
 'ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ:🌞🌊✨🌙Wa.me/558491093889🌞🌊✨🌙
