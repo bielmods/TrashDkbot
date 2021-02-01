@@ -668,26 +668,18 @@ async function starts() {
                                 case 'dono':
 if (args.length < 1) return reply('TrashфDkofcꪶ Número do meu dono😎🤙:WA.me/558494740630 😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw Número da cremosa do meu dono que ajudou a fazer o menu 😎🤙ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ: wa.me/558491093889')
                                         break
-                                case 'porno':
-					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3BgnL2qAHDTlfCPMAvdjuLGvOx402dSdhw&usqp=CAU`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Adm proibiu porno no gp🙄'})
-					break
+case 'porno':
+if (args.length < 1) return reply('Meu dono proibiu o porno 😎🤙')
+break
 case 'bomdia':
-					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/7VL9cFf.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Bom dia, vcs sao fodas ❤️'})
-					break
-				case 'boatarde':
-					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/JaO3yoV.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa tarde, rapeize 😎👍'})
-					break
-				case 'boanoite':
-					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/yOFxSUR.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa noite fml ❤️'})
-					break
+if (args.length < 1) return reply('Bom dia meu bom 😎🤙')
+break
+case 'boa tarde':
+if (args.length < 1) return reply('Boa tarde só prós do verdade😎🤙')
+break
+case 'boanoite':
+if (args.length < 1) return reply('Boa noite Jajá é hora do 😏')
+break
                                 	default:
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
