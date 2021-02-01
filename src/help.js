@@ -25,6 +25,9 @@ comando : *${prefix}meme*
 desc : Meme aleatório [Inglês]
 uso : apenas envie o comando\n✨🌞
 
+🌙✨Comando : *${prefix}porno*😎🤙🌾🌞🌊
+🌾🌞🌊 Desc: 😏😏😏😏
+
 🌊✨comando : *${prefix}memeindo*
 desc : memes aleatórios [indonesio]
 uso : apenas envie o comando\n🌊🐚
