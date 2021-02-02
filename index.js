@@ -177,7 +177,7 @@ async function starts() {
 					uptime = process.uptime()
 					teks = `*𝐃𝐤𝐎𝐅𝐂-𝐁𝐎𝐓* : ${me.name}\n*558494740630* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Contato de bloqueio total* : ${blocked.length}\n*O bot está ativo em* : ${kyun(uptime)}`
 					buffer = await getBuffer(me.imgUrl)
-					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]})
+					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
 				case 'blocklist':
 					teks = 'This is list of blocked number :\n'
