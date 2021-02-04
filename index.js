@@ -680,6 +680,11 @@ break
 case 'boanoite':
 if (args.length < 1) return reply('Boa noite Jajá é hora do 😏')
 break
+case 'metaldark':
+             Dreo = body.slice(11)
+             buffer = await getBuffer(`https://api.xteam.xyz/textpro/metaldarkgold?text=${dreo}&APIKEY=test`)
+            client.sendMessage(from, buffer, image, {quoted: mek, caption: 'This'})
+break
                                 	default:
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
