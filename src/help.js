@@ -37,6 +37,9 @@ comando : *${prefix}gtts*
 desc : converte texto em áudio
 uso : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts pt iae mano*\n🐚🌊✨
 
+🌾🌞🌊Comando : *${prefix}metaldark*😎🤙🌾🌞🌊
+🌾🌞🌊desc : cria um textin 😎🤙
+
 🌻🌾comando : *${prefix}loli*
 desc : imagens de lolis aleatórias
 uso : apenas envie o comando\n🪐🌕✨🌞
