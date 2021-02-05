@@ -215,6 +215,14 @@ case 'kbbi':
 					teks += `Total : ${blocked.length}`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": blocked}})
 					break
+case 'herrypotter':
+                                case 'harrypotter':
+                                        var gh = body.slice(12)
+                                        if (args.length < 1) return reply('Cade o txt burro?\nExemplo: ${prefix}harrypotter Itachi')
+                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/photooxy?theme=harry_potter&text=${gh}&apikey=BotWeA`, {method: 'get'})
+                                        buffer = await getBuffer(anu.result)
+                                        client.sendMessage(from, buffer, image, {quoted: mek, caption: '.medo😳...'})
+                                        break
 case '3dtext':
                 data = await await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${body.slice(8)}`)
                 client.sendMessage(from, data, image, {quoted: mek, caption: body.slice(8)})
