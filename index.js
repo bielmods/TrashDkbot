@@ -197,6 +197,15 @@ case 'ytmp3':
 					teks += `Total : ${blocked.length}`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": blocked}})
 					break
+                   case 'chatlist':
+					client.updatePresence(from, Presence.composing)  
+					teks = 'This is list of chat number :\n'
+					for (let all of totalchat) {
+						teks += `~> @${all}\n`
+					}
+					teks += `Total : ${totalchat.length}`
+					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": totalchat}})
+					break
 case 'ytmp4':
 					if (args.length < 1) return reply('Cade a URL man?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
