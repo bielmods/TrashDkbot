@@ -198,6 +198,15 @@ case 'marvellogo':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
+case 'kbbi':
+            client.updatePresence(from, Presence.composing) 
+                if (args.length < 1) return reply(`Digite as perguntas\Exemploh : ${prefix}kbbi oi`)
+	      tels = body.slice(6)
+              data = await fetchJson(`https://tobz-api.herokuapp.com/api/kbbi?kata=${tels}&apikey=BotWeA`)
+              if (data.error) return reply(data.error)
+              hasil = `${data.result}`
+              reply(hasil)
+              break
 				case 'blocklist':
 					teks = 'This is list of blocked number :\n'
 					for (let block of blocked) {
