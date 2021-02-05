@@ -209,6 +209,16 @@ case '3dtext':
                 data = await await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${body.slice(8)}`)
                 client.sendMessage(from, data, image, {quoted: mek, caption: body.slice(8)})
                 break
+case 'infonomor':
+               client.updatePresence(from, Presence.composing) 
+                 if (!isUser) return reply(mess.only.daftarB)
+                 if (args.length < 1) return reply(`Insira numeros\nExemplo : ${prefix}infonomor 556299663...`)
+                data = await fetchJson(`https://docs-jojo.herokuapp.com/api/infonomor?no=${body.slice(11)}`)
+                if (data.error) return reply(data.error)
+                if (data.result) return reply(data.result)
+                hasil = `╠➥ internasional : ${data.international}\n╠➥ nomor : ${data.nomor}\n╠➥ operator : ${data.op}`
+                reply(hasil)
+                break
                    case 'chatlist':
 					client.updatePresence(from, Presence.composing)  
 					teks = 'This is list of chat number :\n'
