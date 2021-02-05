@@ -227,6 +227,15 @@ case 'ninjalogo':
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
+case 'setppbot':
+				client.updatePresence(from, Presence.composing) 
+				if (!isQuotedImage) return reply(`Envie fotos com legendas ${prefix}setbotpp ou tags de imagem que já foram enviadas`)
+					if (!isOwner) return reply(mess.only.ownerB)
+					enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+					media = await client.downloadAndSaveMediaMessage(enmedia)
+					await client.updateProfilePicture(botNumber, media)
+					reply('Obrigado pelo novo perfil😗')
+					break
 				case 'ocr':
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
