@@ -269,13 +269,13 @@ case 'trendtwit':
 					break
 case 'testime':
 					setTimeout( () => {
-					client.sendMessage(from, 'Waktu habis:v', text) // ur cods
+					client.sendMessage(from, 'tempo limite', text) // ur cods
 					}, 10000) // 1000 = 1s,
 					setTimeout( () => {
-					client.sendMessage(from, '5 Detik lagi', text) // ur cods
+					client.sendMessage(from, '5 segundos', text) // ur cods
 					}, 5000) // 1000 = 1s,
 					setTimeout( () => {
-					client.sendMessage(from, '10 Detik lagi', text) // ur cods
+					client.sendMessage(from, '10 segundos', text) // ur cods
 					}, 0) // 1000 = 1s,
 					break
 				case 'ocr':
