@@ -600,7 +600,6 @@ case 'textodeneve':
 					var gbl7 = gh.split("|")[0];
 					var gbl8 = gh.split("|")[1];
 					if (args.length < 1) return reply(`Kirim perintah ${prefix}snowwrite teks1|teks2, contoh ${prefix}snowwrite aqulzz|galuh`)
-                                        if (!isUser) return reply(mess.only.daftarB)
 					reply(mess.wait)
 					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/snowwrite?text1=${gbl7}&text2=${gbl8}&apikey=apivinz`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
