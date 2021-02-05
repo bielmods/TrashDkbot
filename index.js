@@ -681,7 +681,7 @@ case 'boanoite':
 if (args.length < 1) return reply('Boa noite Jajá é hora do 😏')
 break
 case 'metaldark':
-             Dreo = body.slice(5)
+             dreo = body.slice(5)
              buffer = await getBuffer(`https://api.xteam.xyz/textpro/metaldarkgold?text=${dreo}&APIKEY=test`)
             client.sendMessage(from, buffer, image, {quoted: mek, caption: 'This'})
 break
