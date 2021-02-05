@@ -210,7 +210,6 @@ case 'ytmp4':
 					break
 case 'ninjalogo':
                       if (args.length < 1) return reply('Cade o texto?')
-                      if (!isUser) return reply(mess.only.daftarB)
                       gh = body.slice(11)
                       gl1 = gh.split("|")[0];
                       gl2 = gh.split("|")[1];
