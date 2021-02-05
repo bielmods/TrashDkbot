@@ -191,8 +191,7 @@ case 'ytmp3':
                                          break
 case 'marvellogo':
 					var gh = body.slice(12)
-					if (args.length < 1) return reply(`Enviar pedidos ${prefix}marvellogo texto, por exemplo ${prefix}marvellogo Toin BOT`)
-                                        if (!isUser) return reply(mess.only.daftarB)
+					if (args.length < 1) return reply(`Enviar pedidos ${prefix}marvellogo texto, por exemplo ${prefix}marvellogo Toin BOT`)                                    
 					reply(mess.wait)
 					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=snow&text=${gh}&apikey=BotWeA`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
