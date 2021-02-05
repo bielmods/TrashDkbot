@@ -348,6 +348,17 @@ case 'setppbot':
 						reply(`Envie Uma Imagem Com A Legenda ${prefix}sticker Ou Cite Uma Imagem`)
 					}
 					break
+case 'wame':
+  client.updatePresence(from, Presence.composing) 
+      options = {
+          text: `「 *SELF WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}\n\nSeu link Whatsapp : *https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n*Or ( / )*\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*`,
+          contextInfo: { mentionedJid: [sender] }
+    }
+    client.sendMessage(from, options, text, { quoted: mek } )
+				break
+				if (data.error) return reply(data.error)
+				reply(data.result)
+				break
 				case 'gtts':
 					if (args.length < 1) return client.sendMessage(from, 'Qual Lingua E QuaL O TextO?', text, {quoted: mek})
 					const gtts = require('./lib/gtts')(args[0])
