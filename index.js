@@ -833,7 +833,7 @@ break
 case 'boanoite':
 if (args.length < 1) return reply('Boa noite Jajá é hora do 😏')
 break
-case 'Atualizações':
+case 'updates':
 if (args.length < 1) return reply('novos comandos :  {prefix}Ytmp4, {prefix}Setbotpp, {prefix}Blocklist, {prefix}wame, {prefix}lovepaper, {prefix}chatlist e {prefix}herrypotter digite {prefix}help pra ver os comandos com mais detalhes')
 break
 case 'metaldark':
