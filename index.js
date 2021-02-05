@@ -595,6 +595,17 @@ async function starts() {
 						fs.unlinkSync(ran)
 					})
 					break
+case 'snowwrite':
+					var gh = body.slice(11)
+					var gbl7 = gh.split("|")[0];
+					var gbl8 = gh.split("|")[1];
+					if (args.length < 1) return reply(`Kirim perintah ${prefix}snowwrite teks1|teks2, contoh ${prefix}snowwrite aqulzz|galuh`)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					reply(mess.wait)
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/snowwrite?text1=${gbl7}&text2=${gbl8}&apikey=apivinz`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+                                        break
 				case 'simi':
 					if (args.length < 1) return reply('Onde esta o texto poha, hum?')
 					teks = body.slice(5)
