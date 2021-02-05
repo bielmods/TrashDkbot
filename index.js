@@ -328,12 +328,14 @@ async function starts() {
 					prefix = args[0]
 					reply(`: ${prefix}`)
 					break
-				/*case 'loli':
-					loli.getSFWLoli(async (err, res) => {
-						if (err) return reply('⚠️*ERROR*⚠️')
-						buffer = await getBuffer(res.url)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Citai Lolimu'})
-					})
+				case 'loli':
+                                        gatauda = body.slice(6)
+                                        if (!isUser) return reply(mess.only.daftarB)
+                                        reply(mess.wait)
+                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=BotWeA`, {method: 'get'})
+                                        buffer = await getBuffer(anu.result)
+                                        client.sendMessage(from, buffer, image, {quoted: mek})
+                                        break
 					break
 				case 'nsfwloli':
 					if (!isNsfw) return reply('⚠️*FALSE*⚠️')
