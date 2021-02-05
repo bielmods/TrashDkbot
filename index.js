@@ -197,6 +197,10 @@ case 'ytmp3':
 					teks += `Total : ${blocked.length}`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": blocked}})
 					break
+case '3dtext':
+                data = await await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${body.slice(8)}`)
+                client.sendMessage(from, data, image, {quoted: mek, caption: body.slice(8)})
+                break
                    case 'chatlist':
 					client.updatePresence(from, Presence.composing)  
 					teks = 'This is list of chat number :\n'
