@@ -666,10 +666,9 @@ async function starts() {
 					}
 					break
                                 case 'dono':
-					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`http://imgur.com/gallery/KnMnEvm`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:*TrashфDkofc \n*YOUTUBE:* https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n*WPP:* wa.me/+558494740630\n*INSTA:* to sem kk\n\n\n*Espero que gostem do meu bot'})
-					break
+if (args.length < 1) return reply('TrashфDkofcꪶ Número do meu dono😎🤙:WA.me/558494740630 😎🤙Youtube do meu dono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw Número da cremosa do meu dono que ajudou a fazer o menu 😎🤙ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ: wa.me/558491093889')
+                                        break
+case 'porno':
 case 'porno':
 if (args.length < 1) return reply('Meu dono proibiu o porno 😎🤙')
 break
