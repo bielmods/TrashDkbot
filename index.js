@@ -595,7 +595,7 @@ async function starts() {
 						fs.unlinkSync(ran)
 					})
 					break
-case 'snowwrite':
+case 'textodeneve':
 					var gh = body.slice(11)
 					var gbl7 = gh.split("|")[0];
 					var gbl8 = gh.split("|")[1];
