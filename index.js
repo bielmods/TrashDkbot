@@ -335,7 +335,6 @@ async function starts() {
                                         anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=BotWeA`, {method: 'get'})
                                         buffer = await getBuffer(anu.result)
                                         client.sendMessage(from, buffer, image, {quoted: mek})
-                                        break
 					break
 				case 'nsfwloli':
 					if (!isNsfw) return reply('⚠️*FALSE*⚠️')
