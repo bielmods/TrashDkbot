@@ -179,6 +179,16 @@ async function starts() {
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
+case 'ytmp3':
+					if (args.length < 1) return reply('Cade a URL man?')
+					anu = await fetchJson(`https://mhankbarbar.tech/api/yta?url=${args[0]}&apiKey=${BarBarKey}`, {method: 'get'})
+					if (anu.error) return reply(anu.error)
+					teks = `❏ *Title* : ${anu.title}\n❏ *Filesize* : ${anu.filesize}\n\nPerai já tô enviando o áudio...`
+					thumb = await getBuffer(anu.thumb)
+					client.sendMessage(from, thumb, image, {quoted: mek, caption: teks})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
+                                         break
 				case 'blocklist':
 					teks = 'This is list of blocked number :\n'
 					for (let block of blocked) {
