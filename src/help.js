@@ -118,6 +118,31 @@ note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐�
 
 🌾🌞🌊Comando : *${prefix}boa noite
 
+🐚🌕Comando : {prefix}ytmp4🌊🐚🌕
+Desc : pega um vídeo do YouTube e manda pra você
+Uso : mande {prefix}ytmp4 e o link do vídeo do youtube
+
+🐚🌕Comando : {prefix}setbotpp🌊🐚🌕
+🌊🐚🌕Desc : muda a foto de perfil do bot (apenas o dono pode usar)
+
+🐚🌕Comando : {prefix}blocklist🌊🐚🌕
+🌊🐚🌕Desc : mostra todos os contatos bloqueados do bot🌊🐚🌕
+
+🐚🌕Comando : {prefix}wame🌊🐚🌕
+🌊🐚🌕Desc : faz um comando WA.me com o seu número
+🌊🐚🌕Uso : apenas mande o comando
+
+🐚🌕Comando : {prefix}lovepaper🌊🐚🌕
+🌊🐚🌕Desc : faz uma imagem em um papel em formato de coração com o texto que você escolher
+🌊🐚🌕Uso : mande {prefix}lovepaper e a frase que você quer
+
+🌊🐚🌕comando : {prefix}chatlist🌊🐚🌕
+🌊🐚🌕desc : mostra os chats em que o bot está🌊🐚🌕
+
+🌊🐚🌕comando : {prefix}herrypotter🌊🐚🌕
+🌊🐚🌕Desc : cria uma imagem com um texto estilo herrypotter
+🌊🐚🌕uso : {prefix}herrypotter mais o texto que você quiser
+
 Contate meu dono caso tenha alguma dúvida: wa.me/558494740630
 
 'ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ:🌞🌊✨🌙Wa.me/558491093889🌞🌊✨🌙
