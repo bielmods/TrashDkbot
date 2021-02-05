@@ -175,7 +175,7 @@ async function starts() {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `*𝐃𝐤𝐎𝐅𝐂-𝐁𝐎𝐓* : ${me.name}\n*558494740630* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Contato de bloqueio total* : ${blocked.length}\n*O bot está ativo em* : ${kyun(uptime)}`
+					teks = `𝐃𝐤𝐎𝐅𝐂-𝐁𝐎𝐓 : ${me.name}\n*wa.me/558494740630* : @${me.jid.split('@')[0]}\n*sigla dos comandos* : ${prefix}\nnumeros bloqueados : ${blocked.length}\no bot esta ativo desde : ${kyun(uptime)}\n`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
