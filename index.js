@@ -211,7 +211,6 @@ case '3dtext':
                 break
 case 'infonomor':
                client.updatePresence(from, Presence.composing) 
-                 if (!isUser) return reply(mess.only.daftarB)
                  if (args.length < 1) return reply(`Insira numeros\nExemplo : ${prefix}infonomor 556299663...`)
                 data = await fetchJson(`https://docs-jojo.herokuapp.com/api/infonomor?no=${body.slice(11)}`)
                 if (data.error) return reply(data.error)
