@@ -869,9 +869,9 @@ case 'boanoite':
 if (args.length < 1) return reply('Boa noite Jajá é hora do 😏')
 break
 case 'timer':
-				if (args[1]=="detik") {var timer = args[0]+"000"
-				} else if (args[1]=="menit") {var timer = args[0]+"0000"
-				} else if (args[1]=="jam") {var timer = args[0]+"00000"
+				if (args[1]=="segundos") {var timer = args[0]+"000"
+				} else if (args[1]=="minutos") {var timer = args[0]+"0000"
+				} else if (args[1]=="horas") {var timer = args[0]+"00000"
 				} else {return reply("*escolher:*\nsegundos\nminutos\nhoras")}
 				setTimeout( () => {
 				reply("O tempo acabou")
