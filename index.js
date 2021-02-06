@@ -237,7 +237,6 @@ case 'instastalk':
                     break
 case 'chord':
 					if (args.length < 1) return reply('onde está o título da música')
-                                        if (!isUser) return reply(mess.only.daftarB)
 					tels = body.slice(7)					
 					anu = await fetchJson(`https://arugaz.my.id/api/chord?q=${tels}`, {method: 'get'})
 					reply(anu.result)
