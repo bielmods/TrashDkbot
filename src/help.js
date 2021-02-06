@@ -75,6 +75,8 @@ desc : Adiciona um membro ao grupo
 uso : *${prefix}add 55849xxxxx*\n
 note : só pode ser usado quando o bot se torna admin, e quem envia também é admin!\n✨🌞🌊
 
+
+
 🌊🌞🌾comando : *${prefix}kick*
 desc : expulsa membros do grupo
 uso : *${prefix}kick @marcarmembro*\n
@@ -89,6 +91,12 @@ note : só pode ser usado quando o bot se torna admin, e quem envia o comando é
 desc : faz um adm virar membro comum 😔🤙
 uso : *${prefix}demote @marcarmembro*\n
 note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n✨🌞🌊
+
+🌊🐚🌕comando : {prefix}grupoabrir🌊🐚🌕
+🌊🐚🌕Desc:abre o seu grupo se você e o bot forem adms🌊🐚🌕
+
+🌊🐚🌕Comando : {prefix}grupofechar🌊🐚🌕
+🌊🐚🌕Desc : fecha o seu grupo se você e o bot forem adms🌊🐚🌕
 
 🌊🌞✨comando : *${prefix}linkgroup*
 desc : envia o link do grupo
@@ -110,7 +118,7 @@ desc : ativa o modo simih
 uso : *${prefix}simih 1* pra ativar o modo, e *${prefix}simih 0* pra desativar o modo simih
 note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐🌊✨
 
-          >Outros comandos<😎🤙🌾🌞🌊
+          >Comandos recém atualizados<😎🤙🌾🌞🌊
 
 🌾🌞🌊Comando : *${prefix}bomdia
 
@@ -131,6 +139,17 @@ Uso : mande {prefix}ytmp4 e o link do vídeo do youtube
 🐚🌕Comando : {prefix}wame🌊🐚🌕
 🌊🐚🌕Desc : faz um comando WA.me com o seu número
 🌊🐚🌕Uso : apenas mande o comando
+
+🌊🐚🌕Comando : {prefix}timer🌊🐚🌕
+🌊🐚🌕Desc : faz uma contagem em segundos minutos ou horas
+🌊🐚🌕uso : envie por exemplo {prefix}timer 2 segundos, {prefix}timer 2 minutos ou {prefix}timer 2 horas🌊🐚🌕
+
+🌊🐚🌕comando : {prefix}image🌊🐚🌕
+🌊🐚🌕Desc : procura uma imagem no Pinterest de acordo com o que você escrever
+🌊🐚🌕uso : envie {prefix}image cachorro🌊🐚🌕
+
+🌊🐚🌕comando : {prefix}anime🌊🐚🌕
+🌊🐚🌕Desc : manda uma imagem aleatória de anime🌊🐚🌕
 
 Contate meu dono ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ ✞☬ঔ caso tenha alguma dúvida: wa.me/558494740630
 
