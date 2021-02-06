@@ -214,7 +214,6 @@ case 'kbbi':
                                         client.sendMessage(from, hasil, text, {quoted:mek})
                                         break
 case 'loli'
-                                        gatauda = body.slice(6)
                                         reply(mess.wait)
                                         anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=BotWeA`, {method: 'get'})
                                         buffer = await getBuffer(anu.result)
