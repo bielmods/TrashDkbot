@@ -90,10 +90,10 @@ desc : faz um adm virar membro comum 😔🤙
 uso : *${prefix}demote @marcarmembro*\n
 note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n✨🌞🌊
 
-🌊🐚🌕comando : {prefix}grupoabrir🌊🐚🌕
+🌊🐚🌕comando : ${prefix}grupoabrir🌊🐚🌕
 🌊🐚🌕Desc:abre o seu grupo se você e o bot forem adms🌊🐚🌕
 
-🌊🐚🌕Comando : {prefix}grupofechar🌊🐚🌕
+🌊🐚🌕Comando : ${prefix}grupofechar🌊🐚🌕
 🌊🐚🌕Desc : fecha o seu grupo se você e o bot forem adms🌊🐚🌕
 
 🌊🌞✨comando : *${prefix}linkgroup*
@@ -124,35 +124,35 @@ note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐�
 
 🌾🌞🌊Comando : *${prefix}boa noite
 
-🐚🌕Comando : {prefix}ytmp4🌊🐚🌕
+🐚🌕Comando : ${prefix}ytmp4🌊🐚🌕
 Desc : pega um vídeo do YouTube e manda pra você
 Uso : mande {prefix}ytmp4 e o link do vídeo do youtube
 
-🐚🌕Comando : {prefix}setbotpp🌊🐚🌕
+🐚🌕Comando : ${prefix}setbotpp🌊🐚🌕
 🌊🐚🌕Desc : muda a foto de perfil do bot (apenas o dono pode usar)
 
-🐚🌕Comando : {prefix}blocklist🌊🐚🌕
+🐚🌕Comando : ${prefix}blocklist🌊🐚🌕
 🌊🐚🌕Desc : mostra todos os contatos bloqueados do bot🌊🐚🌕
 
-🐚🌕Comando : {prefix}wame🌊🐚🌕
+🐚🌕Comando : ${prefix}wame🌊🐚🌕
 🌊🐚🌕Desc : faz um comando WA.me com o seu número
 🌊🐚🌕Uso : apenas mande o comando
 
-🌊🐚🌕Comando : {prefix}timer🌊🐚🌕
+🌊🐚🌕Comando : ${prefix}timer🌊🐚🌕
 🌊🐚🌕Desc : faz uma contagem em segundos minutos ou horas
 🌊🐚🌕uso : envie por exemplo {prefix}timer 2 segundos, {prefix}timer 2 minutos ou {prefix}timer 2 horas🌊🐚🌕
 
-🌊🐚🌕comando : {prefix}image🌊🐚🌕
+🌊🐚🌕comando : ${prefix}image🌊🐚🌕
 🌊🐚🌕Desc : procura uma imagem no Pinterest de acordo com o que você escrever
 🌊🐚🌕uso : envie {prefix}image cachorro🌊🐚🌕
 
-🌊🐚🌕comando : {prefix}anime🌊🐚🌕
+🌊🐚🌕comando : ${prefix}anime🌊🐚🌕
 🌊🐚🌕Desc : manda uma imagem aleatória de anime🌊🐚🌕
 
-🌊🐚🌕Comando : {prefix}menuadmins🌊🐚🌕
+🌊🐚🌕Comando : ${prefix}menuadmins🌊🐚🌕
 🌊🐚🌕Desc : mostra os comandos pra adms de grupos
 
-🌊🐚🌕DIGITE {prefix}updates PRA VER AS ATUALIZAÇÕES DO BOT MAIS RECENTES
+🌊🐚🌕DIGITE ${prefix}updates PRA VER AS ATUALIZAÇÕES DO BOT MAIS RECENTES
 
 Contate meu dono ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ ✞☬ঔ caso tenha alguma dúvida: wa.me/558494740630
 
