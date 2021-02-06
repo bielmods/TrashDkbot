@@ -500,6 +500,7 @@ case 'wame':
                                         buffer = await getBuffer(anu.result)
                                         client.sendMessage(from, buffer, image, {quoted: mek})
                                         break
+           case 'randomanime':
            case 'anime':
 					gatauda = body.slice(13)
 					reply(mess.wait)
