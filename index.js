@@ -301,7 +301,7 @@ case 'bug':
                         var nomor = mek.participant
                        const teks1 = `*[BUG REPORTADO]*\nNumero : @${nomor.split("@s.whatsapp.net")[0]}\nMOTIVO : ${pesan}`
                       var options = {
-                         text: teks1,
+                         text: teks2,
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     client.sendMessage('558494740630@s.whatsapp.net', options, text, {quoted: mek})
