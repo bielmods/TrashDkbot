@@ -453,6 +453,13 @@ case 'wame':
 						fs.unlinkSync(ranm)
 					})
 					break
+case 'infogempa':
+                case 'ping':
+                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/infogempa?apikey=BotWeA`, {method: 'get'})
+                                        if (anu.error) return reply(anu.error)
+                                        hasil = `*Kedalaman* : ${anu.kedalaman}\n*Koordinat* : ${anu.koordinat}\n*Lokasi* : ${anu.lokasi}\n*Magnitude* : ${anu.magnitude}\n*Map* : ${anu.map}\n*Potensi* : ${anu.potensi}\n*Waktu* : ${anu.waktu}`
+                                        client.sendMessage(from, hasil, text, {quoted:mek})
+                                        break
 				case 'meme':
 					meme = await fetchJson('http://imgur.com/gallery/3xPWgiY', { method: 'get' })
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
