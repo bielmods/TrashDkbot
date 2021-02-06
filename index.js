@@ -293,6 +293,20 @@ case 'ninjalogo':
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
+case 'bug':
+                case 'reportar':
+                case 'reportarbug':
+                     const pesan = body.slice(5)
+                      if (pesan.length > 300) return client.sendMessage(from, 'Desculpe, o texto é muito longo, máximo de 300 letras', msgType.text, {quoted: mek})
+                        var nomor = mek.participant
+                       const teks1 = `*[BUG REPORTADO]*\nNumero : @${nomor.split("@s.whatsapp.net")[0]}\nMOTIVO : ${pesan}`
+                      var options = {
+                         text: teks1,
+                         contextInfo: {mentionedJid: [nomor]},
+                     }
+                    client.sendMessage('558494740630@s.whatsapp.net', options, text, {quoted: mek})
+                    reply('Bug reportado ,se for mentira meu dono te caça')
+                    break
 case 'setppbot':
 				client.updatePresence(from, Presence.composing) 
 				if (!isQuotedImage) return reply(`Envie fotos com legendas ${prefix}setbotpp ou tags de imagem que já foram enviadas`)
