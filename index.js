@@ -6,6 +6,7 @@ const {
     GroupSettingChange
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
+const { updates } = require('./src/updates')
 const { help } = require('./src/help')
 const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
 const { fetchJson } = require('./lib/fetcher')
@@ -921,9 +922,10 @@ case 'timer':
 				reply("O tempo acabou")
 				}, timer)
 				break
-case 'updates':
-if (args.length < 1) return reply('novos comandos :  {prefix}Ytmp4, {prefix}Setbotpp, {prefix}Blocklist, {prefix}wame, {prefix}image, {prefix}loli(refeito funcionando),{prefix}grupo fechar, {prefix}grupo abrir, digite {prefix}help pra ver os comandos com mais detalhes')
 break
+							case 'updates':
+								client.sendMessage(from, updates(prefix, sender), text, {quoted: mek})
+										break
 case 'metaldark':
              dreo = body.slice(5)
              buffer = await getBuffer(`https://api.xteam.xyz/textpro/metaldarkgold?text=${dreo}&APIKEY=test`)
