@@ -229,6 +229,19 @@ case 'grup':
 						client.groupSettingChange(from, GroupSettingChange.messageSend, true)
 					}
 					break
+case 'instastalk':
+                      hmm = await fetchJson(`https://freerestapi.herokuapp.com/api/v1/igs?u=${body.slice(9)}`)
+                     buffer = await getBuffer(hmm.data.profilehd)
+                     hasil = `Nome completo : ${hmm.data.fullname}\nseguidores : ${hmm.data.follower}\nSegue : ${hmm.data.following}\nPrivate : ${hmm.data.private}\nVerified : ${hmm.data.verified}\nbio : ${hmm.data.bio}`
+                    client.sendMessage(from, buffer, image, {quoted: mek, caption: hasil})
+                    break
+case 'chord':
+					if (args.length < 1) return reply('onde está o título da música')
+                                        if (!isUser) return reply(mess.only.daftarB)
+					tels = body.slice(7)					
+					anu = await fetchJson(`https://arugaz.my.id/api/chord?q=${tels}`, {method: 'get'})
+					reply(anu.result)
+					break
 case 'image':
                                         tels = body.slice(6)
 					client.updatePresence(from, Presence.composing) 
