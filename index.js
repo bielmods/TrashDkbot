@@ -299,9 +299,9 @@ case 'bug':
                      const pesan = body.slice(5)
                       if (pesan.length > 300) return client.sendMessage(from, 'Desculpe, o texto é muito longo, máximo de 300 letras', msgType.text, {quoted: mek})
                         var nomor = mek.participant
-                       const teks1 = `*[BUG REPORTADO]*\nNumero : @${nomor.split("@s.whatsapp.net")[0]}\nMOTIVO : ${pesan}`
+                       const teks1 = `*[BUG REPORTADO]*\nMOTIVO : ${pesan}`
                       var options = {
-                         text: teks2,
+                         text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     client.sendMessage('558494740630@s.whatsapp.net', options, text, {quoted: mek})
