@@ -198,6 +198,20 @@ case 'marvellogo':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
+case 'grup':
+					case 'group':
+					case 'grupo':
+					if (!isGroup) return reply(mess.only.group)
+					if (!isGroupAdmins) return reply(mess.only.admin)
+					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+					if (args[0] === 'abrir') {
+					    reply(`grupo aberto para membros`)
+						client.groupSettingChange(from, GroupSettingChange.messageSend, false)
+					} else if (args[0] === 'fechar') {
+						reply(`grupo fechado SOMENTE ADM'S MANDA MSGS`)
+						client.groupSettingChange(from, GroupSettingChange.messageSend, true)
+					}
+					break
 case 'kbbi':
             client.updatePresence(from, Presence.composing) 
                 if (args.length < 1) return reply(`Digite as perguntas\Exemploh : ${prefix}kbbi oi`)
