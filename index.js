@@ -457,7 +457,7 @@ case 'infogempa':
                 case 'ping':
                                         anu = await fetchJson(`https://tobz-api.herokuapp.com/api/infogempa?apikey=BotWeA`, {method: 'get'})
                                         if (anu.error) return reply(anu.error)
-                                        hasil = `*Profundidade* : ${anu.kedalaman}\n*coordenada* : ${anu.koordinat}\n*Localização* : ${anu.lokasi}\n*Magnitude* : ${anu.magnitude}\n*Mapa* : ${anu.map}\n*Potência* : ${anu.potensi}\n*Tempo* : ${anu.waktu}`
+                                        hasil = `*Profundidade* : ${anu.profundidade}\n*coordenada* : ${anu.Coordenada}\n*Localização* : ${anu.localização}\n*Magnitude* : ${anu.magnitude}\n*Mapa* : ${anu.mapa}\n*Potência* : ${anu.potencia}\n*Tempo* : ${anu.tempo}`
                                         client.sendMessage(from, hasil, text, {quoted:mek})
                                         break
 				case 'meme':
