@@ -198,6 +198,15 @@ case 'marvellogo':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
+case 'quotemaker':
+                    gh = body.slice(12)
+                    teks1 = gh.split("|")[0];
+                    teks2 = gh.split("|")[1];
+                    teks3 = gh.split("|")[2]
+                    data = await fetchJson(`https://terhambar.com/aw/qts/?kata=${teks1}&author=${teks2}&tipe=${teks3}`)
+                    hasil = await getBuffer(data.result)
+                    client.sendMessage(from, hasil, image, {quoted: mek, caption: 'neh...'})
+                    break
 case 'grup':
 					case 'group':
 					case 'grupo':
