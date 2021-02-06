@@ -1,8 +1,12 @@
 const updates = (prefix, pushname) => {
  return `
 Novos comandos atualizados pelo meu dono 
-novos comandos :  {prefix}Ytmp4, {prefix}Setbotpp, {prefix}Blocklist, 
+novos comandos :  
+{prefix}Ytmp4
 
+{prefix}Setbotpp
+
+{prefix}Blocklist 
 
 {prefix}wame
 
