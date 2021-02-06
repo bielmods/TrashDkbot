@@ -126,7 +126,7 @@ note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐�
 
 🐚🌕Comando : ${prefix}ytmp4🌊🐚🌕
 Desc : pega um vídeo do YouTube e manda pra você
-Uso : mande {prefix}ytmp4 e o link do vídeo do youtube
+Uso : mande ${prefix}ytmp4 e o link do vídeo do youtube
 
 🐚🌕Comando : ${prefix}setbotpp🌊🐚🌕
 🌊🐚🌕Desc : muda a foto de perfil do bot (apenas o dono pode usar)
@@ -140,11 +140,11 @@ Uso : mande {prefix}ytmp4 e o link do vídeo do youtube
 
 🌊🐚🌕Comando : ${prefix}timer🌊🐚🌕
 🌊🐚🌕Desc : faz uma contagem em segundos minutos ou horas
-🌊🐚🌕uso : envie por exemplo {prefix}timer 2 segundos, {prefix}timer 2 minutos ou {prefix}timer 2 horas🌊🐚🌕
+🌊🐚🌕uso : envie por exemplo ${prefix}timer 2 segundos, {prefix}timer 2 minutos ou {prefix}timer 2 horas🌊🐚🌕
 
 🌊🐚🌕comando : ${prefix}image🌊🐚🌕
 🌊🐚🌕Desc : procura uma imagem no Pinterest de acordo com o que você escrever
-🌊🐚🌕uso : envie {prefix}image cachorro🌊🐚🌕
+🌊🐚🌕uso : envie ${prefix}image cachorro🌊🐚🌕
 
 🌊🐚🌕comando : ${prefix}anime🌊🐚🌕
 🌊🐚🌕Desc : manda uma imagem aleatória de anime🌊🐚🌕
