@@ -917,7 +917,7 @@ case 'timer':
 				}, timer)
 				break
 case 'updates':
-if (args.length < 1) return reply('novos comandos :  {prefix}Ytmp4, {prefix}Setbotpp, {prefix}Blocklist, {prefix}wame, digite {prefix}help pra ver os comandos com mais detalhes')
+if (args.length < 1) return reply('novos comandos :  {prefix}Ytmp4, {prefix}Setbotpp, {prefix}Blocklist, {prefix}wame, {prefix}image, {prefix}loli(refeito funcionando),{prefix}grupo fechar, {prefix}grupo abrir, digite {prefix}help pra ver os comandos com mais detalhes')
 break
 case 'metaldark':
              dreo = body.slice(5)
