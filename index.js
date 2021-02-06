@@ -868,6 +868,15 @@ break
 case 'boanoite':
 if (args.length < 1) return reply('Boa noite Jajá é hora do 😏')
 break
+case 'timer':
+				if (args[1]=="detik") {var timer = args[0]+"000"
+				} else if (args[1]=="menit") {var timer = args[0]+"0000"
+				} else if (args[1]=="jam") {var timer = args[0]+"00000"
+				} else {return reply("*escolher:*\nsegundos\nminutos\nhoras")}
+				setTimeout( () => {
+				reply("O tempo acabou")
+				}, timer)
+				break
 case 'updates':
 if (args.length < 1) return reply('novos comandos :  {prefix}Ytmp4, {prefix}Setbotpp, {prefix}Blocklist, {prefix}wame, digite {prefix}help pra ver os comandos com mais detalhes')
 break
