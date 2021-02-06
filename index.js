@@ -172,6 +172,10 @@ async function starts() {
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
+			break
+							case 'menuadmin':
+								client.sendMessage(from, menuadmin(prefix, sender), text, {quoted: mek})
+										break
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
