@@ -207,6 +207,19 @@ case 'kbbi':
               hasil = `${data.result}`
               reply(hasil)
               break
+                case 'ping':
+                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/infogempa?apikey=BotWeA`, {method: 'get'})
+                                        if (anu.error) return reply(anu.error)
+                                        hasil = `*Kedalaman* : ${anu.kedalaman}\n*Koordinat* : ${anu.koordinat}\n*Lokasi* : ${anu.lokasi}\n*Magnitude* : ${anu.magnitude}\n*Map* : ${anu.map}\n*Potensi* : ${anu.potensi}\n*Waktu* : ${anu.waktu}`
+                                        client.sendMessage(from, hasil, text, {quoted:mek})
+                                        break
+case 'loli'
+                                        gatauda = body.slice(6)
+                                        reply(mess.wait)
+                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=BotWeA`, {method: 'get'})
+                                        buffer = await getBuffer(anu.result)
+                                        client.sendMessage(from, buffer, image, {quoted: mek})
+                                        break
 				case 'blocklist':
 					teks = 'This is list of blocked number :\n'
 					for (let block of blocked) {
@@ -455,14 +468,7 @@ case 'wame':
 					if (!isOwner) return reply(mess.only.ownerB)
 					prefix = args[0]
 					reply(`: ${prefix}`)
-					break
-				case 'loli':
-                                        gatauda = body.slice(6)
-                                        reply(mess.wait)
-                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=BotWeA`, {method: 'get'})
-                                        buffer = await getBuffer(anu.result)
-                                        client.sendMessage(from, buffer, image, {quoted: mek})
-					break
+					break				
 				case 'nsfwloli':
 					if (!isNsfw) return reply('⚠️*FALSE*⚠️')
 					loli.getNSFWLoli(async (err, res) => {
@@ -486,6 +492,20 @@ case 'wame':
 					client.sendMessage(from, thumb, image, {quoted: mek, caption: teks})
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
+					break
+	case 'hentai':
+                                        gatauda = body.slice(6)
+                                        reply(mess.wait)
+                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai?apikey=BotWeA`, {method: 'get'})
+                                        buffer = await getBuffer(anu.result)
+                                        client.sendMessage(from, buffer, image, {quoted: mek})
+                                        break
+           case 'anime':
+					gatauda = body.slice(13)
+					reply(mess.wait)
+					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomanime?apikey=BotWeA`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
 case 'animehug':
 					ranp = getRandom('.gif')
