@@ -75,8 +75,6 @@ desc : Adiciona um membro ao grupo
 uso : *${prefix}add 55849xxxxx*\n
 note : só pode ser usado quando o bot se torna admin, e quem envia também é admin!\n✨🌞🌊
 
-
-
 🌊🌞🌾comando : *${prefix}kick*
 desc : expulsa membros do grupo
 uso : *${prefix}kick @marcarmembro*\n
@@ -153,6 +151,8 @@ Uso : mande {prefix}ytmp4 e o link do vídeo do youtube
 
 🌊🐚🌕Comando : {prefix}menuadmins🌊🐚🌕
 🌊🐚🌕Desc : mostra os comandos pra adms de grupos
+
+🌊🐚🌕DIGITE {prefix}updates PRA VER AS ATUALIZAÇÕES DO BOT MAIS RECENTES
 
 Contate meu dono ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ ✞☬ঔ caso tenha alguma dúvida: wa.me/558494740630
 
