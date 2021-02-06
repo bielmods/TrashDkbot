@@ -495,7 +495,6 @@ case 'wame':
 					break
            case 'randomanime':
            case 'anime':
-					gatauda = body.slice(13)
 					reply(mess.wait)
 					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomanime?apikey=BotWeA`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
