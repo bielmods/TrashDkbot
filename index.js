@@ -213,12 +213,6 @@ case 'kbbi':
                                         hasil = `*Kedalaman* : ${anu.kedalaman}\n*Koordinat* : ${anu.koordinat}\n*Lokasi* : ${anu.lokasi}\n*Magnitude* : ${anu.magnitude}\n*Map* : ${anu.map}\n*Potensi* : ${anu.potensi}\n*Waktu* : ${anu.waktu}`
                                         client.sendMessage(from, hasil, text, {quoted:mek})
                                         break
-case 'loli'
-                                        reply(mess.wait)
-                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=BotWeA`, {method: 'get'})
-                                        buffer = await getBuffer(anu.result)
-                                        client.sendMessage(from, buffer, image, {quoted: mek})
-                                        break
 				case 'blocklist':
 					teks = 'This is list of blocked number :\n'
 					for (let block of blocked) {
