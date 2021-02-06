@@ -3,26 +3,26 @@ const updates = (prefix, pushname) => {
 Novos comandos atualizados pelo meu dono 
 novos comandos :  
 
-{prefix}Ytmp4
+${prefix}Ytmp4
 
-{prefix}Setbotpp
+${prefix}Setbotpp
 
-{prefix}Blocklist 
+${prefix}Blocklist 
 
-{prefix}wame
+${prefix}wame
 
-{prefix}image
+${prefix}image
 
-{prefix}loli(refeito funcionando)
+${prefix}loli(refeito funcionando)
 
-{prefix}grupo fechar
+${prefix}grupo fechar
 
-{prefix}grupo abrir
-
-
+${prefix}grupo abrir
 
 
-digite {prefix}help pra ver os comandos com mais detalhes
+
+
+digite ${prefix}help pra ver os comandos com mais detalhes
  `
 
 
