@@ -174,7 +174,7 @@ async function starts() {
 					break
 			break
 							case 'menuadmin':
-								client.sendMessage(from, menuadmin(prefix, sender), text, {quoted: mek})
+								client.sendMessage(from, menuadmin.js(prefix, sender), text, {quoted: mek})
 										break
 				case 'info':
 					me = client.user
