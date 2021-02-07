@@ -128,7 +128,7 @@ note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐�
 Desc : pega um vídeo do YouTube e manda pra você
 Uso : mande ${prefix}ytmp4 e o link do vídeo do youtube
 
-🐚🌕Comando : ${prefix}setbotpp🌊🐚🌕
+🐚🌕Comando : ${prefix}setppbot🌊🐚🌕
 🌊🐚🌕Desc : muda a foto de perfil do bot (apenas o dono pode usar)
 
 🐚🌕Comando : ${prefix}blocklist🌊🐚🌕
