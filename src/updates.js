@@ -5,7 +5,7 @@ novos comandos :
 
 ${prefix}Ytmp4
 
-${prefix}Setbotpp
+${prefix}Setppbot
 
 ${prefix}Blocklist 
 
