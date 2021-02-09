@@ -720,14 +720,14 @@ case 'animehug':
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await client.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							client.sendMessage(_.jid, buff, image, {caption: `[ Ini Broadcast ]\n\n${body.slice(4)}`})
+							client.sendMessage(_.jid, buff, image, {caption: `[ Isto é uma transmissão do meu dono ]\n\n${body.slice(4)}`})
 						}
-						reply('Suksess broadcast')
+						reply('Transmissao concluída')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ Ini Broadcast ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ Isto é uma transmissão ]\n\n${body.slice(4)}`)
 						}
-						reply('Suksess broadcast')
+						reply('Transmissao concluída')
 					}
 					break
                                 case 'promote':
