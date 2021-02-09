@@ -13,6 +13,7 @@ const { fetchJson } = require('./lib/fetcher')
 const { recognize } = require('./lib/ocr')
 const { menuadmin } = require('./src/menuadmin')
 const { destrava } = require('./src/destrava')
+const { pack } = require('./src/pack')
 const fs = require('fs')
 const moment = require('moment-timezone')
 const { exec } = require('child_process')
@@ -178,6 +179,9 @@ async function starts() {
 			break
 							case 'destrava':
 								client.sendMessage(from, destrava(prefix, sender), text, {quoted: mek})
+										break
+case 'pack+18':
+								client.sendMessage(from, pack(prefix, sender), text, {quoted: mek})
 										break
 case 'yt2mp3':
 					if (args.length < 1) return reply('Cadê o url, hum?')
