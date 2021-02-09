@@ -12,6 +12,7 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 const { fetchJson } = require('./lib/fetcher')
 const { recognize } = require('./lib/ocr')
 const { menuadmin } = require('./src/menuadmin')
+const { destrava } = require('./src/destrava')
 const fs = require('fs')
 const moment = require('moment-timezone')
 const { exec } = require('child_process')
