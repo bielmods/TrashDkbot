@@ -19,6 +19,12 @@ ${prefix}grupo fechar
 
 ${prefix}grupo abrir
 
+09/02/2021 Update:✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷
+
+${prefix}pack+18
+
+${prefix}destrava
+
 
 
 
