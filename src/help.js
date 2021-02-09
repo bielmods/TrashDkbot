@@ -154,6 +154,11 @@ Uso : mande ${prefix}ytmp4 e o link do vídeo do youtube
 
 🌊🐚🌕DIGITE ${prefix}updates PRA VER AS ATUALIZAÇÕES DO BOT MAIS RECENTES
 
+
+❌❌❌❌+18❌❌❌❌
+
+🌊🐚🌕comando : ${prefix}pack+18
+🌊🐚🌕Desc : já deu pra entender
 Contate meu dono ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ ✞☬ঔ caso tenha alguma dúvida: wa.me/558494740630
 
 'ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ:🌞🌊✨🌙Wa.me/558491093889🌞🌊✨🌙
