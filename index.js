@@ -69,7 +69,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Halo @${num.split('@')[0]}\nSeja bem vindo ao grupo *${mdata.subject}*`
+				teks = `Ola:) @${num.split('@')[0]}\nSeja bem vindo ao grupo *${mdata.subject}*`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -874,12 +874,12 @@ case 'textodeneve':
 				case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('Hmmmm')
+					if (args.length < 1) return reply('1 pra ativar 0 pra desativar)
 					if (Number(args[0]) === 1) {
 						if (isWelkom) return reply('ja ta ativo poha')
 						welkom.push(from)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
-						reply('Modo boas vindas ativado com sucesso neste grupo âœ”ï¸')
+						reply('Modo boas vindas ativado com sucesso neste grupo')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
