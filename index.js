@@ -874,7 +874,7 @@ case 'textodeneve':
 				case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('1 pra ativar 0 pra desativar)
+					if (args.length < 1) return reply('1 pra ativar 0 pra desativar')
 					if (Number(args[0]) === 1) {
 						if (isWelkom) return reply('ja ta ativo poha')
 						welkom.push(from)
