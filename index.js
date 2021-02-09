@@ -269,7 +269,7 @@ case 'chord':
 					reply(anu.result)
 					break
 case 'image':
-                                        tels = body.slice(5)
+                                        tels = body.slice(6)
 					client.updatePresence(from, Presence.composing) 
 					data = await fetchJson(`https://api.fdci.se/rep.php?gambar=${tels}`, {method: 'get'})
 					reply(mess.wait)
