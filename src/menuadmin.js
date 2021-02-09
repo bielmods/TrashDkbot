@@ -19,6 +19,8 @@ const menuadmin = (prefix, pushname) => {
  ├─ ❏ ${prefix}leave
  ├─ ❏ ${prefix}welcome
  ├─ ❏ ${prefix}simih
+ ├─ ❏ ${prefix}tmgc (apenas o meu dono pode usar)
+
  `
 
 
