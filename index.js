@@ -175,6 +175,9 @@ async function starts() {
 					client.sendMessage(from, help(prefix), text)
 					break
 			break
+							case 'destrava':
+								client.sendMessage(from, destrava(prefix, sender), text, {quoted: mek})
+										break
 case 'yt2mp3':
 					if (args.length < 1) return reply('Cadê o url, hum?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
