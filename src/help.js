@@ -149,7 +149,7 @@ Uso : mande ${prefix}ytmp4 e o link do vídeo do youtube
 🌊🐚🌕comando : ${prefix}anime🌊🐚🌕
 🌊🐚🌕Desc : manda uma imagem aleatória de anime🌊🐚🌕
 
-🌊🐚🌕Comando : ${prefix}menuadmins🌊🐚🌕
+🌊🐚🌕Comando : ${prefix}menuadmin🌊🐚🌕
 🌊🐚🌕Desc : mostra os comandos pra adms de grupos
 
 🌊🐚🌕DIGITE ${prefix}updates PRA VER AS ATUALIZAÇÕES DO BOT MAIS RECENTES
