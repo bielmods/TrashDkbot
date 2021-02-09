@@ -124,6 +124,9 @@ note : Este comando so pode ser usado se você for admin do grupo\n🌾🌞🪐�
 
 🌾🌞🌊Comando : *${prefix}boa noite
 
+🌊🐚🌕comando : *${prefix}destrava
+🌊🐚🌕Desc : envia uma destrava pra destravar você ou o grupo
+
 🐚🌕Comando : ${prefix}ytmp4🌊🐚🌕
 Desc : pega um vídeo do YouTube e manda pra você
 Uso : mande ${prefix}ytmp4 e o link do vídeo do youtube
