@@ -8,9 +8,11 @@ const {
 const { color, bgcolor } = require('./lib/color')
 const { updates } = require('./src/updates')
 const { help } = require('./src/help')
+const { thalesarrombado } = require('./src/thalesarrombado')
 const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
 const { fetchJson } = require('./lib/fetcher')
 const { recognize } = require('./lib/ocr')
+const { supporters } = require('./src/supporters')
 const { menuadmin } = require('./src/menuadmin')
 const { destrava } = require('./src/destrava')
 const { pack } = require('./src/pack')
@@ -176,6 +178,11 @@ async function starts() {
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
+case 'thalesarrombado':
+					client.sendMessage(from, thalesarrombado(prefix), text)
+break
+case 'supporters':
+					client.sendMessage(from, supporters(prefix), text)
 			break
 							case 'destrava':
 								client.sendMessage(from, destrava(prefix, sender), text, {quoted: mek})
