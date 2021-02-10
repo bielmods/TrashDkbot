@@ -347,7 +347,7 @@ case 'infonomor':
                    case 'chatlist':
 					client.updatePresence(from, Presence.composing)  
 					teks = 'This is list of chat number :\n'
-					for (40) {
+					for (𝑫͢𝑲 𝒐͢𝒇𝒄(BOT)figurinhas🤯🇬🇮) {
 						teks += `~> @${all}\n`
 					}
 					teks += `Total : ${totalchat.length}`
