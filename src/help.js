@@ -155,6 +155,12 @@ Uso : mande ${prefix}ytmp4 e o link do vídeo do youtube
 🌊🐚🌕Comando : ${prefix}menuadmin🌊🐚🌕
 🌊🐚🌕Desc : mostra os comandos pra adms de grupos
 
+🌊🐚🌕Comando : ${prefix}thalesarrombado🌊🐚🌕
+🌊🐚🌕Desc : mostra o arrombado que derrubou o bot ._.(Zuera Thales)
+
+🌊🐚🌕Comando : ${prefix}supporter🌊🐚🌕
+🌊🐚🌕Desc : mostra os carinhas q protegem o bot
+
 🌊🐚🌕DIGITE ${prefix}updates PRA VER AS ATUALIZAÇÕES DO BOT MAIS RECENTES
 
 
