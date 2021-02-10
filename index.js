@@ -344,15 +344,6 @@ case 'infonomor':
                 hasil = `╠➥ internasional : ${data.international}\n╠➥ nomor : ${data.nomor}\n╠➥ operator : ${data.op}`
                 reply(hasil)
                 break
-                   case 'chatlist':
-					client.updatePresence(from, Presence.composing)  
-					teks = 'This is list of chat number :\n'
-					for (𝑫͢𝑲 𝒐͢𝒇𝒄(BOT)figurinhas🤯🇬🇮) {
-						teks += `~> @${all}\n`
-					}
-					teks += `Total : ${totalchat.length}`
-					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": totalchat}})
-					break
 case 'ytmp4':
 					if (args.length < 1) return reply('Cade a URL man?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
