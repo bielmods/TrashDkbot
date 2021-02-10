@@ -743,7 +743,7 @@ case 'animehug':
 					for (let _ of anu) {
 						client.deleteChat(_.jid)
 					}
-					reply('Sukses delete all chat :)')
+					reply('Os chats foram limpos com sucesso :)')
 					break
 				case 'tm':
 					if (!isOwner) return reply('Quem é tu mlk?')
